@@ -1,0 +1,505 @@
+section#timeline {
+    border-top: 1px rgba(255, 255, 255, 0.18) solid;
+}
+
+.timeline__heading p {
+    color: white;
+    font-family: '__clashDisplayBold_2c25b0', '__clashDisplayBold_Fallback_2c25b0';
+    text-align: center;
+}
+
+
+.timeline-content.mycontainer.myflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.timelineText {
+    font-family: '__Montserrat_050074' !important;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+
+.timelineBox {
+    display: flex;
+    width: -moz-fit-content;
+    width: fit-content;
+    flex-direction: row;
+    gap: 5rem;
+    margin-top: 14rem;
+    margin-bottom: 5rem;
+}
+
+.singleTimeline {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 5rem;
+    margin-top: 10rem;
+}
+
+.hackLeft {
+    max-width: 415px;
+}
+
+.hackLeft h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #D434FE;
+    margin-bottom: 1rem;
+
+}
+
+
+
+
+.timeDigit {
+    position: relative;
+}
+
+
+
+
+.spanline,
+.spanline2 {
+    position: absolute;
+    left: 0;
+    height: 162px;
+    width: 4px;
+    background-color: #D434FE;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 131%;
+    z-index: -1;
+}
+
+.spanline2 {
+    height: 114px;
+}
+
+.singleTimeline.secondLeft {
+    margin-top: 0;
+    flex-direction: row-reverse;
+}
+
+
+
+
+
+.timelineNumber {
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-top: 14px;
+}
+
+.leftTimeline {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6.3rem;
+    max-width: 432px;
+
+}
+
+
+.leftTimeline2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6.3rem;
+    max-width: 432px;
+    margin-top: 2.7rem;
+}
+
+
+.leftTimeline__single {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 432px;
+    width: 100%;
+    gap: 1rem;
+}
+
+.leftTimeline__single.firstLeftDate {
+    margin-top: 11px;
+}
+
+.leftTimeline__single.long h3 {
+    font-size: 20px;
+}
+
+.leftTimeline__single2.demoDay h3 {
+    margin-top: 1px;
+}
+
+.leftTimeline__single2.lastRightDate {
+    margin-top: 10px;
+}
+
+.leftTimeline__single2.demoDay {
+    margin-top: 25px;
+}
+
+.leftTimeline__single p {
+    width: 100%;
+}
+
+.leftTimeline__single h3 , .leftTimeline__single2 h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #D434FE;
+    margin-left: 3rem;
+}
+
+
+.leftTimeline__single p,.leftTimeline__single2 p {
+    font-size: 14px;
+    width: 420px;
+    color: white;
+}
+
+.leftTimeline__single2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 432px;
+    width: 100%;
+}
+
+.leftTimeline__single2 {
+   
+    align-items: flex-start;
+  
+}
+
+.leftTimeline__single2 h3 {
+    text-align: left;
+    margin-left: 0;
+}
+
+
+.longtext {
+    white-space: nowrap;
+}
+
+.leftTimeline__single p {
+    text-align: right;
+}
+
+
+.numberSingle {
+    height: 94px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.numberSingle span{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    /* padding: 0.4rem 1rem; */
+    border-radius: 50%;
+    background: linear-gradient(275deg, #903AFF, #D434FE) !important;
+    /* background: cadetblue; */
+    /* border: 7px solid #160d28; */
+    /* border-block-color: red; */
+    width: 53px;
+    display: block;
+    height: 53px;
+    text-align: center;
+    line-height: 2.2;
+}
+
+.stroktLine {
+    position: absolute;
+    left: 0;
+    height: 162px;
+    width: 4px;
+    background-color: #D434FE;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 88%;
+    z-index: -1;
+}
+
+.stroktLine2 {
+    position: absolute;
+    left: 0;
+    height: 86px;
+    width: 4px;
+    background-color: #D434FE;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 88%;
+    z-index: -1;
+}
+
+
+.numberSingle.five {
+    margin-top: 40px;
+}
+
+.numberSingle.five .stroktLine {
+    height: 128px;
+}
+
+.leftTimeline__single.long h3 {
+    white-space: nowrap;
+    margin-top: 40px;
+}
+
+.numberSingle.four {
+    margin-top: 9px;
+}
+
+
+.leftTimeline__single.fourthDate {
+    margin-top: 18px;
+}
+
+.leftTimeline__single.fifthDate {
+    margin-top: -18px;
+}
+.leftTimeline__single2.demoDay h3 {
+    margin-top: -30px;
+    margin-bottom: 26px;
+}
+
+
+.announce p{
+    width: 425px;
+}
+
+
+@media screen and (max-width:1377px) {
+    
+    .leftTimeline__single h3, .leftTimeline__single2 h3 {
+        font-size: 19px;
+    }
+    
+    .numberSingle span {
+        font-size: 20px;
+        
+        width: 50px;
+        
+        height: 50px;
+        
+        text-align: center;
+        line-height: 2.6;
+    }
+
+    .leftTimeline__single.firstLeftDate {
+        margin-top: 26px;
+    }
+
+    .leftTimeline__single.fifthDate {
+        margin-top: 1px;
+    }
+
+    .leftTimeline__single2.teams {
+        margin-top: 19px;
+    }
+    .leftTimeline__single2.lastRightDate {
+        margin-top: 40px;
+    }
+    /* .leftTimeline__single2.lastRightDate {
+        margin-top: 35px;
+    } */
+}
+
+@media screen and (max-width:1314px) {
+
+    .leftTimeline__single2.teams {
+        margin-top: 15px;
+    }
+    .leftTimeline__single2.teams p {
+        margin-top: 2px;
+    }
+
+    /* .leftTimeline__single2.thirdDate {
+        margin-top: -61px;
+    } */
+
+    .leftTimeline__single2.thirdDate {
+        margin-top: -5px;
+    }
+
+    .leftTimeline__single2.lastRightDate {
+        margin-top: 38px;
+    }
+    .leftTimeline__single2.demoDay {
+        margin-top: 25px;
+    }
+}
+
+
+@media screen and (max-width:1186px) {
+
+    .timelineBox {
+
+        gap: 2rem;
+  
+    }
+
+  
+
+    .leftTimeline {
+  
+        margin-top: 16px;
+    }
+
+    .leftTimeline__single.fourthDate {
+        margin-top: 32px;
+    }
+    .leftTimeline__single.long {
+        margin-top: 11px;
+    }
+
+    .leftTimeline__single.fifthDate {
+        margin-top: -12px;
+    }
+
+
+.leftTimeline2 {
+
+    margin-top: 2.9rem;
+}
+.leftTimeline__single2.teams {
+    margin-top: 16px;
+}
+
+.leftTimeline__single2.lastRightDate {
+    margin-top: 29px;
+}
+
+
+.leftTimeline__single2.thirdDate {
+    margin-top: -1px;
+}
+
+.leftTimeline__single.firstLeftDate {
+    margin-top: 5px;
+}
+}
+
+@media screen and (max-width: 1139px){
+    .leftTimeline__single p, .leftTimeline__single2 p {
+
+    width: 287px !important;
+  
+}
+
+ .leftTimeline{
+    width: 303px;
+ }
+
+ .leftTimeline__single.firstannounce h3 {
+    white-space: nowrap;
+}
+
+.leftTimeline__single.firstLeftDate {
+    margin-top: -36px;
+}
+.leftTimeline__single.fourthDate {
+    margin-top: 8px;
+}
+
+.leftTimeline__single.long {
+    margin-top: -4px;
+}
+
+.leftTimeline__single.fifthDate {
+    margin-top: -21px;
+}
+
+.leftTimeline__single2.thirdDate {
+    margin-top: -28px;
+}
+
+.leftTimeline__single2.lastRightDate {
+    margin-top: -7px;
+}
+
+.leftTimeline__single.long h3 {
+    font-size: 14px;
+}
+}
+@media screen and (max-width: 1001px){
+
+    .leftTimeline__single h3, .leftTimeline__single2 h3 {
+        font-size: 15px;
+    }
+
+    .leftTimeline__single p, .leftTimeline__single2 p {
+        font-size: 11px;
+    
+    }
+    .leftTimeline__single2.thirdDate {
+        margin-top: 6px;
+    }
+
+    .leftTimeline__single2.lastRightDate {
+        margin-top: 44px;
+    }
+    
+    .leftTimeline__single.long h3 {
+        font-size: 14px;
+    }
+
+    .leftTimeline__single.fourthDate {
+        margin-top: 26px;
+    }
+
+    .leftTimeline__single.fifthDate {
+        margin-top: 16px;
+    }
+
+    .leftTimeline__single.firstLeftDate {
+        margin-top: 4px;
+    }
+    
+}
+
+span:hover {
+    -webkit-box-shadow: 0 0 1rem rgba(0,0,0,.6);
+    box-shadow: 0 0 1rem rgba(0,0,0,.6);
+    background-color: rgba(255,255,255,.25);
+}
+@media screen and (max-width: 900px){
+
+    .numberSingle span {
+        font-size: 20px;
+        width: 29px;
+        height: 29px;
+        text-align: center;
+        /* height: 49px; */
+        line-height: 1.4;
+    
+    }
+}
+@media screen and (max-width: 875px){
+
+    section#timeline {
+        padding: 2rem 0rem;
+    }
+}
+@media screen and (max-width: 782px){
+
+    .timelineBox{
+        display: none;
+    }
+    .leftTimeline__single2.announce h3 {
+        font-size: 13px;
+    }
+}

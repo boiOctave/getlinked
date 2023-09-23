@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+
+/* ///////////////////////////////////////////////// */
+.header {
+  @apply fixed top-0 left-0 pt-12  w-full z-50 transition ease-in-out delay-200;
+}
+
+.inverted {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-shadow: 20px -6px 16px 15px rgb(0 0 0 / 33%);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgb(53 21 119 / 14%);
+}
+
+.logo {
+  @apply lg:text-4xl not-italic font-bold md:text-2xl sm:text-sm;
+}
+
+.nav-links {
+  width: 423px;
+  justify-content: space-between;
+}
+/*//////////////////    MEDIA QUERIES   ////////////////////*/
+
+@media screen and (max-width: 1341px) {
+  .nav-links {
+    width: 583px;
+  }
+}
+
+@media screen and (max-width: 1285px) {
+  .nav-links {
+    width: 420px;
+  }
+}
+
+.nav-links a {
+  @apply text-white lg:text-base;
+}
+
+.nav__button {
+  width: 172px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 1100px) {
+  .nav__button {
+    width: 126px;
+    height: 45px;
+    font-size: 12px;
+  }
+}
+
+/* .aside,
+    .nav-hamburgerClose{
+        display: none;
+    } */
+
+/* //  HIDE NAVBAR AT SCREENSIZE 880PX AND INTRODUCE MOBILE NAV  */
+
+@media screen and (max-width: 879px) {
+  .nav__button-container,
+  .nav-links {
+    display: none;
+  }
+}
+@media screen and (min-width: 880px) {
+  .aside,
+  .menuCon,
+  .hamburgerOpen,
+  .hamburgerClose {
+    display: none;
+  }
+}
+
+/* //ASIDE  NAV */
+
+.aside {
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5rem;
+  top: 0rem;
+  box-shadow: 0px 4px 4px #00000040;
+  border-radius: 15px;
+  min-width: 348px;
+  height: 100vh;
+  /* transition: all 0.5s ease; */
+  border-radius: 8px;
+  border: 0.5px solid rgba(255, 255, 255, 0.04);
+  background: #150e28;
+  backdrop-filter: blur(30px);
+  align-items: flex-start;
+  padding-left: 3rem;
+  z-index: 100;
+}
+
+.mobiileNav-container {
+  @apply flex-col gap-6 items-start;
+}
+.mobiileNav-container a {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1px;
+}
+
+.menuCon{
+  position: relative;
+  height: 20px;
+  width: 20px;
+}
+
+.hamburgerOpen{
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.hamburgerClose {
+  cursor: pointer;
+  position: absolute;
+  top: 46px;
+  right: 62px;
+}
+
+
+
+@media screen and (max-width: 310px) {
+  .aside {
+    
+    min-width: 275px;
+  }
+
+}
+
+.coloredlink{
+  background: linear-gradient(90deg, #903AFF 3.08%, #FF26B9 93.85%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}

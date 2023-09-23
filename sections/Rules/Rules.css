@@ -1,0 +1,243 @@
+
+
+    section#rules {
+        border-top: 1px rgba(255, 255, 255, 0.18) solid;
+    }
+    
+
+.rules-content.mycontainer.myflex {
+    gap: 3rem;
+    flex-direction: row-reverse;
+}
+
+.rulesLeft,.rulesRight {
+    position: relative;
+}
+
+
+img.starrules1 ,img.starrules2 ,img.starrules3 {
+    position: absolute;
+}
+
+
+img.starrules3{
+    display: none;
+}
+.rulesRight {
+    max-width: 520.7px;
+    width: 100%;
+}
+
+.rulesRight p {
+    font-size: 14px;
+    color: white;
+    margin-top: 1rem;
+}
+
+.rulesRight h2 {
+    font-size: 32px;
+}
+
+img.ideamage{
+
+    padding-left: 3rem;
+}
+
+img.starrules1,.starrules2 , .starrules3 {
+    width: 21px;
+}
+
+img.starrules1 {
+    top: 68%;
+    left: 8%;
+}
+
+img.starrules2 {
+    top: 15%;
+    left: 68%;
+}
+
+@media screen and (max-width:904px) {
+    .rulesRight h2 {
+        font-size: 26px;
+    }
+    .rulesRight p {
+        font-size: 10px;}
+}
+@media screen and (max-width:800px) {
+    .rulesRight h2 {
+        font-size: 19px;
+    }
+    .rulesRight p {
+        font-size: 13px;
+        width: fit-content;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:655px)  {
+    section#rules{
+        padding-top: 20px;
+        
+    }
+    
+    .rules-content.mycontainer.myflex{
+        flex-direction: column;
+    }
+
+    .rulesRight h2, .rulesRight p  {
+        text-align: center;
+    }
+    img.ideamage {
+        padding-left: 0;
+    }
+     img.starrules3 {
+        display: block;
+        top: 93%;
+        left: 13%;
+    }
+}
+
+@media screen and (max-width:450px)  {
+    img.starrules1 {
+        top: 43%;
+        left: 8%;
+    }
+
+    img.starrules2 {
+        top: 15%;
+        left: 97%;
+    }
+
+
+   
+
+}
+
+
+
+@media screen and (max-width: 310px) {
+    
+    section#rules{
+        padding-top: 0;
+    }
+
+}
+
+
+
+.rulesLeft::before {
+    content: "";
+    background: url("/overlay1.png");
+    width: 1086px;
+    height: 836px;
+    flex-shrink: 0;
+    top: -20rem;
+    right: 30rem;
+    transform: rotate(180deg);
+    display: block;
+    opacity: 0.68;
+    position: absolute;
+    z-index: -100;
+}
+
+.rulesRight::after {
+    content: "";
+    background: url("/overlay2.png");
+    width: 951px;
+    height: 994px;
+    flex-shrink: 0;
+    top: -183px;
+    left: 49rem;
+    opacity: 0.68;
+    display: block;
+    position: absolute;
+    z-index: -100;
+}
+
+@media screen and (max-width: 1396px) {
+    .rulesLeft::before {
+        content: "";
+        background: url("/overlaymid.png");
+        width: 826px;
+        height: 639px;
+        top: -18rem;
+        right: 30rem;
+    }
+
+    ru.rulesRight::after {
+        content: "";
+        background: url("/overlaymid2.png");
+        width: 658px;
+        height: 707px;
+        right: -27rem;
+        top: -64px;
+    }
+}
+
+@media screen and (max-width: 1127px) {
+    .rulesLeft::before {
+        content: "";
+        background: url("/overlaysm.png");
+        width: 533px;
+        height: 402px;
+        top: -3rem;
+        right: 30rem;
+        transform: rotate(180deg);
+    }
+
+    .rulesRight::after {
+        content: "";
+        background: url("/overlaysm2.png");
+        width: 295px;
+        height: 317px;
+        left: 39rem;
+        top: 1rem;
+    }
+}
+
+@media screen and (max-width: 828px) {
+    .rulesLeft::before {    content: "";
+        background: url("/overlayxs.png");
+        width: 390px;
+        height: 442px;
+        top: -12rem;
+        right: 14rem;
+        opacity: 0.3;
+        transform: rotate(0deg);
+        /* mix-blend-mode: unset; */
+    }
+
+    .rulesRight::after {
+        content: "";
+        background: url("/overlaysm2.png");
+        width: 295px;
+        height: 317px;
+        left: 22rem;
+        top: -9rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .rulesLeft::before {
+        content: "";
+        background: url(/overlayxs.png);
+        width: 390px;
+        height: 442px;
+        top: -11rem;
+        right: 1rem;
+        opacity: 0.3;
+        transform: rotate(0deg);
+        /* mix-blend-mode: unset; */
+    }
+
+    .rulesRight::after {
+        content: "";
+        background: url(/overlaysm2.png);
+        width: 295px;
+        height: 317px;
+        left: 8rem;
+        top: -6rem;
+    }
+}
+

@@ -1,0 +1,38 @@
+section#sponsors {
+    padding-bottom: 6rem;
+}
+
+.sponsors-content.mycontainer.myflex {
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sponsors-content.mycontainer.myflex p {
+    color: #FFF;
+    text-align: center;
+    /* font-family: Montserrat; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px;
+    margin-bottom: 4rem;
+}
+
+
+
+
+@media screen and (max-width:777px) {
+
+    h2.__className_2c25b0.undefined.text-white {
+   
+        font-size: 20px;
+        
+    }
+
+
+    .sponsors-content.mycontainer.myflex p {
+       
+        font-size: 12px;
+      
+    }
+}

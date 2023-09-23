@@ -1,0 +1,607 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700;1,800&family=Unica+One&display=swap");
+
+section#hero.section {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 61px;
+    /* height: 1046px; */
+}
+
+section#hero {
+    margin-top: 43px;
+      padding-top: 7rem;
+}
+
+
+.hero-content.mycontainer.myflex {
+    padding-right: 0;
+    margin-right: 0px;
+    padding-left: 4px;
+    margin-left: 28px;
+}
+
+.heroSlogan {
+    width: 100vw;
+    position: relative;
+    padding: 0 55px;
+    /* z-index: 5; */
+}
+
+.heroSlogan h3 {
+    color: #fff;
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    text-align: right;
+    line-height: normal;
+    padding-right: 2rem;
+}
+
+.pinkstroke {
+    width: 287px;
+    height: 17.343px;
+    flex-shrink: 0;
+    -o-object-fit: contain;
+    object-fit: contain;
+    position: absolute;
+    right: 78px;
+}
+
+@media screen and (max-width: 1350px) {
+    .heroSlogan h3 {
+        font-size: 23px;
+    }
+
+    .pinkstroke {
+        width: 164px;
+        height: 11.343px;
+        right: 95px;
+    }
+}
+
+@media screen and (max-width: 1084px) {
+    .heroSlogan h3 {
+        font-size: 20px;
+    }
+
+    .pinkstroke {
+        width: 140px;
+        height: 10.843px;
+        right: 91px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .heroSlogan {
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .heroSlogan h3 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 676px) {
+    .heroSlogan {
+        padding: 0 10px;
+    }
+
+    .heroSlogan h3 {
+        font-size: 12.5px;
+        white-space: nowrap;
+    }
+
+    .pinkstroke {
+        width: 134px;
+        height: 7.843px;
+        right: 33px;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .heroSlogan h3 {
+        font-size: 12.5px;
+    }
+}
+
+.hero-content {
+    justify-content: space-between;
+    max-width: 1600px;
+    width: 112%;
+}
+
+.hero__left {
+    position: relative;
+    max-width: 44.955%;
+    width: 100%;
+    padding: 8.65rem 0;
+    margin-left: 6rem;
+    padding-bottom: 0;
+}
+
+.hero__left p {
+    color: #fff;
+    font-family: "__Montserrat_050074";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166%;
+    position: relative;
+
+    margin: 2rem 0;
+    max-width: 522px;
+}
+
+.topHeading {
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+}
+
+.downHeading {
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+}
+
+.getLinked,
+.hackaton {
+    position: relative;
+    width: fit-content;
+}
+
+.getLinked h2,
+.hackaton h2 {
+    width: fit-content;
+}
+
+.getLinked img {
+    width: 53px;
+    height: 73px;
+    position: absolute;
+    top: -47%;
+    right: 5%;
+}
+
+.hackaton img {
+    width: 144px;
+    height: 86px;
+    position: absolute;
+    bottom: 5px;
+    right: -26%;
+}
+
+.herostars {
+    position: absolute;
+    width: 662px;
+    height: 569px;
+    flex-shrink: 0;
+    top: 194px;
+    left: 174px;
+}
+
+.countdown {
+    max-width: 285px;
+    display: flex;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.countdown .hours p,
+.countdown .mins p,
+.countdown .secs p {
+    color: #fff;
+    font-family: "Unica One", cursive;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133%;
+    /* 85.12px */
+}
+
+.countdown .hours span,
+.countdown .mins span,
+.countdown .secs span {
+    color: #fff;
+    font-family: "__Montserrat_050074";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133%;
+    /* 18.62px */
+}
+
+.hero__Right {
+    position: relative;
+    width: 828px;
+    height: 715px;
+}
+
+.rightMan {
+    position: absolute;
+    width: 942px;
+    height: 744px;
+    flex-shrink: 0;
+    -o-object-fit: contain;
+    object-fit: contain;
+    left: -123px;
+    top: 55px;
+    mix-blend-mode: luminosity;
+}
+
+@media screen and (min-width: 1512px) {
+    .hero__Right {
+        left: 160px;
+    }
+}
+
+.hero__left::before {
+    content: "";
+    background: url("/overlay1.png");
+    width: 1086px;
+    height: 836px;
+    flex-shrink: 0;
+    top: -200px;
+    right: -312px;
+    display: block;
+    opacity: 0.68;
+    position: absolute;
+    z-index: -100;
+}
+
+.hero__Right::after {
+    content: "";
+    background: url("/overlay2.png");
+    width: 951px;
+    height: 994px;
+    flex-shrink: 0;
+    top: -226px;
+    left: 16px;
+    opacity: 0.68;
+    display: block;
+    position: absolute;
+    z-index: -100;
+}
+
+@media screen and (max-width: 1396px) {
+    .hero__left::before {
+        content: "";
+        background: url("/overlaymid.png");
+        width: 826px;
+        height: 639px;
+        left: 0;
+    }
+
+    hero__Right::after {
+        content: "";
+        background: url("/overlaymid2.png");
+        width: 658px;
+        height: 707px;
+        right: -27rem;
+        top: -64px;
+    }
+}
+
+@media screen and (max-width: 1127px) {
+    .hero__left::before {
+        content: "";
+        background: url("/overlaysm.png");
+        width: 533px;
+        height: 402px;
+        top: -15rem;
+    }
+
+    .hero__Right::after {
+        content: "";
+        background: url("/overlaysm2.png");
+        width: 295px;
+        height: 317px;
+        left: 30rem;
+        top: 1rem;
+    }
+}
+
+@media screen and (max-width: 828px) {
+    .hero__left::before {
+        content: "";
+        background: url("/overlayxs.png");
+        width: 390px;
+        height: 442px;
+        top: -154px;
+        left: -13rem;
+        opacity: 0.3;
+        /* mix-blend-mode: unset; */
+    }
+
+    .hero__Right::after {
+        content: "";
+        background: url("/overlaysm2.png");
+        width: 0;
+        height: 0;
+    }
+}
+
+img.globe {
+    /* z-index: 111; */
+    position: absolute;
+    bottom: -14px;
+    left: -50px;
+    width: 640px;
+    opacity: 0.9;
+    mix-blend-mode: hard-light;
+}
+
+.stars {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+}
+
+.stars img {
+    width: 26px;
+    height: 32px;
+}
+
+.stars img:nth-child(1) {
+    position: relative;
+    top: -150px;
+    left: 137px;
+}
+
+.stars img:nth-child(2) {
+    position: relative;
+    top: -7rem;
+    left: 50rem;
+}
+
+.stars img:nth-child(3) {
+    position: relative;
+    top: 17rem;
+    left: 34rem;
+}
+
+@media screen and (max-width: 1440px) {
+    section#hero.section {
+        padding-bottom: 8px;
+        /* height: 1046px; */
+    }
+
+    .rightMan {
+        position: absolute;
+        width: 691px;
+        height: 645px;
+        flex-shrink: 0;
+        -o-object-fit: contain;
+        object-fit: contain;
+        left: -123px;
+        top: 88px;
+        mix-blend-mode: luminosity;
+    }
+
+    .topHeading,
+    .downHeading {
+        font-size: 71px;
+    }
+
+    .hero__left p {
+        font-size: 18px;
+        max-width: 412px;
+    }
+
+    .getLinked img {
+        height: 44px;
+        width: 31px;
+        right: 6%;
+        top: -35%;
+    }
+
+    .hackaton img {
+        width: 97px;
+        height: 38px;
+        bottom: 21%;
+    }
+
+    img.globe {
+        left: -108px;
+        width: 598px;
+        top: 88px;
+    }
+}
+
+@media screen and (max-width: 1389px) {
+
+    .topHeading,
+    .downHeading {
+        font-size: 61px;
+    }
+
+    /* .getLinked img {
+        right: 271px;
+        height: 44px;
+        width: 31px;
+        top: -23px;
+    }
+    .hackaton img {
+        width: 97px;
+        height: 38px;
+        right: 154px;
+        top: 29px;
+    } */
+}
+
+@media screen and (max-width: 1218px) {
+    img.globe {
+        left: -108px;
+        width: 495px;
+        bottom: 139px;
+    }
+    
+    .topHeading,
+    .downHeading {
+        font-size: 54px;
+    }
+    
+    .hero__left p {
+        font-size: 14px;
+        max-width: 412px;
+    }
+    
+    .countdown .hours p,
+    .countdown .mins p,
+    .countdown .secs p {
+        font-size: 54px;
+    }
+    
+    .rightMan {
+        width: 569px;
+        height: 513px;
+    }
+    
+    .hackaton img {
+        width: 79px;
+        height: 38px;
+        bottom: 21%;
+    }
+}
+
+@media screen and (max-width: 1137px) {
+    img.globe{
+
+        left: -108px;
+        width: 495px;
+        top: 205px;
+    }
+
+}
+@media screen and (max-width: 1107px) {
+
+    .topHeading,
+    .downHeading {
+        font-size: 47px;
+    }
+
+    .getLinked img {
+        top: -49%;
+    }
+
+    .hackaton img {
+        width: 60px;
+        height: 38px;
+        bottom: 12%;
+        right: -23%;
+    }
+
+    img.globe {
+        width: 443px;
+    }
+}
+
+@media screen and (max-width: 958px) {
+    img.globe {
+        width: 399px;
+    }
+
+    .countdown .hours p,
+    .countdown .mins p,
+    .countdown .secs p {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 879px) {
+    section#hero.section {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1437px) {
+    .dashedline {
+        width: 200vw;
+        height: 33px;
+        background-color: #150e28;
+        position: absolute;
+        left: -90rem;
+
+        border-top: 1px solid rgba(255, 255, 255, 0.18);
+        bottom: -2rem;
+        /* z-index: 22222222; */
+    }
+}
+
+@media screen and (max-width: 1286px) {
+    .rightMan {
+        top: 104px;
+    }
+}
+
+@media screen and (max-width: 1216px) {
+    .rightMan {
+        top: 227px;
+    }
+
+
+}
+
+@media screen and (max-width: 987px) {
+    .rightMan {
+        top: 256px;
+    }
+
+    img.globe {
+        width: 443px;
+        top: 16rem !important;
+    }
+}
+
+
+@media screen and (max-width: 879px) {
+   .dashedline{
+    width: 300vw;
+    height: 90px;
+    background-color: #150e28;
+    position: absolute;
+    left: -39rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
+
+    bottom: -8rem;
+  
+   }
+}
+
+@media screen and (max-width: 445px) {
+
+    .dashedline{
+
+       
+        bottom: -2rem;
+    }
+}
+@media screen and (max-width: 416px) {
+   .dashedline{
+    width: 300vw;
+    height: 193px;
+    background-color: #150e28;
+    position: absolute;
+    left: -39rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
+    bottom: -8rem;
+  
+   }
+}
+@media screen and (max-width: 310px) {
+ 
+
+    .dashedline{
+
+        left: -30rem;
+   
+    }
+}
+

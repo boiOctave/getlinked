@@ -1,0 +1,264 @@
+section#footer {
+    padding: 16rem 1rem 3rem 1rem;
+}
+.footer-content.mycontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    justify-items: end;
+}
+
+a.flexG.FooterLogo h2 {
+    font-size: 30px;
+}
+
+a.flexG.FooterLogo h2 {
+    font-size: 30px;
+}
+
+.footerLeft p {
+width: 108%;    
+}
+.footerLeft p {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172.4%;
+    margin-top: 0;
+}
+.tou.myflex {
+    width: 50%;
+}
+
+.tou.myflex span {
+    color: white;
+    margin-top: 5rem;
+    font-size: 11px;
+    /* gap: 5px; */
+    /* width: 20%; */
+}
+
+
+span.PrivacyPol {
+    border-left: 1px solid #D434FE;
+    padding-left: 5px !important;
+}
+
+element.style {
+    width: 73%;
+}
+
+
+.middlelinks.myflex {
+    flex-direction: column;
+}
+
+.middlelinks.myflex {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+}
+p.middletitle {
+    color: #D434FE;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 172.4%;
+}
+
+.middlelinks.myflex a {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172.4%;
+}
+
+.middleGrid span , .rightGrid span {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172.4%;
+}
+.middleGrid span {
+    color: #D434FE;
+    /* padding: 1px; */
+    width: 59px;
+}
+
+.middleGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: end;
+    max-width: 203px;
+}
+
+
+img.x_app {
+    height: 19px;
+    width: 19px;
+}
+
+img.fb {
+    height: 20px;
+    width: 10.5px;
+}
+
+img.ig {
+    height: 24px;
+    width: 24px;
+}
+img.liinkde {
+    height: 24px;
+    width: 24px;
+}
+
+.middlelinks.myflex p , .endlinks p {
+    color: #D434FE;
+    /* font-family: Montserrat; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 172.4%;
+}
+
+.rightGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+    align-items: center;
+    max-width: 169px;
+}
+
+
+
+.phonein {
+    margin-left: 52px;
+}
+
+
+span.numba {
+    white-space: nowrap;
+}
+.pin{
+    
+        margin-left: 55px;
+        height: 15px;
+        width: 13px;
+  
+
+}
+
+
+.endlinks{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-height: 121px;
+}
+
+.copyright {
+    width: 369.4%;
+    margin: 0 auto;
+    margin-left: -9rem;
+}
+
+.copyright p {
+    color: #FFF;
+    /* font-family: Montserrat; */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+
+@media screen and (max-width:876px) {
+    .footer-content.mycontainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: start;
+        justify-items: start;
+        align-items: start;
+    }
+    
+    .endlinks{
+        
+        
+        
+        align-items: flex-start;
+        
+    }
+    
+    .phonein,.pin {
+        margin-left: 0;
+    }
+    
+    .rightGrid span {
+        margin-right: 53px;
+    }
+
+    span.locate {
+        width: 100px;
+        /* margin-left: 29px; */
+    }
+    
+    img.pin {
+        margin-right: 31px;
+    }
+    
+    .endlinks.myflex {
+        margin-top: 4rem;
+    }
+    
+    .middlelinks.myflex {
+        margin-top: 4rem;
+    }
+    .tou.myflex {
+        width: 30%;
+    }
+
+    .copyright {
+        width: 134.4%;
+        margin: 0 auto;
+        margin-left: -9rem;
+    }
+}
+@media screen and (max-width:700px) {
+  .tou.myflex {
+        width: 40%;
+    }
+
+    .copyright {
+        
+        margin-left: -9rem;
+    }
+    
+}
+@media screen and (max-width:585px) {
+    .copyright {
+        width: 157.4%;
+        margin: 0 auto;
+        margin-left: -9rem;
+    }
+    
+}
+@media screen and (max-width:498px) {
+  .tou.myflex {
+        width: 60%;
+    }
+
+    a.flexG.FooterLogo h2 {
+        font-size: 20px;
+    }
+    
+    .copyright {
+        width: 198.4%;
+        margin: 0 auto;
+        margin-left: -9rem;
+    }
+}

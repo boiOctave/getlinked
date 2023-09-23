@@ -1,0 +1,257 @@
+.rewadscon{
+    position: relative;
+}
+
+.rewadscon::before {
+    content: "";
+    width: 118%;
+    height: 100%;
+    left: -2%;
+    top: -3%;
+    background-size: cover;
+    position: absolute;
+    background-image: url('/premium_photo-1664443577580-dd2674e9d359 1.png');
+    z-index: -1999999999;
+    background-repeat: no-repeat;
+    mix-blend-mode: color-dodge;
+    opacity: 0.5;
+}
+
+.medalss {
+    max-width: 692px;
+    max-height: 492px;
+}
+
+
+
+
+.rewardsHeadiing h2.__className_2c25b0.undefined.text-white {
+    width: 100%;
+    /* max-width: 505px; */
+    /* max-width: 505px; */
+    /* color: #D434FE; */
+    /* font-family: Clash Display; */
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 62%;
+}
+
+.rewardsHeadiing p {
+    color: #FFF;
+    /* font-family: Montserrat; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170.9%;
+    text-align: inherit;
+    /* max-width: 589px; */
+    margin-bottom: 6rem;
+    width: 406px;
+    margin-left: 62%;
+}
+
+
+.trophyText {
+    max-width: 421px;
+    margin-left: 10rem;
+}
+
+.winner {
+    margin-bottom: 91px;
+    margin-left: -31px;
+    margin-right: -31px;
+}
+
+.prizesLeft img {
+    margin-top: -130px;
+    margin-left: -56px;
+}
+
+
+@media screen and (max-width:1408px) {
+    .winner,
+    .secondplace,
+    .thirdplace{
+        scale:0.9;
+    }
+    
+    .winner {
+        margin-left: -48px;
+        margin-right: -50px;
+    }
+}
+
+@media screen and (max-width:1327px) {
+    .winner,
+    .secondplace,
+    .thirdplace{
+        scale:0.8;
+    }
+    
+    .winner {
+        margin-left: -75px;
+        margin-right: -75px;
+    }
+  
+}
+
+@media screen and (max-width:1266px) {
+    .winner,
+    .secondplace,
+    .thirdplace{
+        scale:0.7;
+    }
+    
+    .winner {
+        margin-left: -95px;
+        margin-right: -95px;
+    }
+}
+@media screen and (max-width:1170px) {
+    .winner,
+    .secondplace,
+    .thirdplace{
+        scale:0.6;
+    }
+    
+    .winner {
+        margin-left: -120px;
+        margin-right: -120px;
+    }
+}
+@media screen and (max-width:888px) {
+}
+
+
+@media screen and (max-width:813px) {
+    
+    .myflex.rewarders {
+        flex-direction: column;
+    }
+    .winner,
+    .secondplace,
+    .thirdplace{
+        scale:0.7;
+    }
+    
+    .winner {
+        margin-left: -95px;
+        margin-right: -95px;
+    }
+    .trophymedals.myflex {
+        margin-top: 6rem;
+    }
+    
+    h2.__className_2c25b0.undefined.text-white {
+        width: 100%;
+        /* max-width: 505px; */
+        /* max-width: 505px; */
+        /* color: #D434FE; */
+        /* font-family: Clash Display; */
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        /* margin-left: 62%; */
+        text-align: center;
+    }
+    
+    .rewardsHeadiing p {
+        color: #FFF;
+        /* font-family: Montserrat; */
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170.9%;
+        text-align: inherit;
+        /* max-width: 589px; */
+        margin-bottom: 6rem;
+        /* width: 60%; */
+        text-align: center;
+        /* margin-left: 62%; */
+    }
+    
+    .prizesLeft img {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    h2.__className_2c25b0.undefined.text-white {
+        width: 100%;
+        /* max-width: 505px; */
+        /* max-width: 505px; */
+        /* color: #D434FE; */
+        /* font-family: Clash Display; */
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-left: 0px;
+        text-align: center;
+    }
+    
+    .rewardsHeadiing p {
+        color: #FFF;
+        /* font-family: Montserrat; */
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170.9%;
+        text-align: inherit;
+        /* max-width: 589px; */
+        margin-bottom: 6rem;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:600px) {
+    .prizesLeft img {
+        scale: 0.8;
+    }
+
+    .winner, .secondplace, .thirdplace {
+        scale: 0.5;
+    }
+    .winner {
+        margin-left: -145px;
+        margin-right: -145px;
+    }
+}
+@media screen and (max-width:515px) {
+    .winner, .secondplace, .thirdplace {
+        scale: 0.4;
+    }
+}
+@media screen and (max-width:461px) {
+    .medalss {
+        margin-left:-23%;
+    }
+}
+@media screen and (max-width:430px) {
+    .winner, .secondplace, .thirdplace {
+        scale: 0.3;
+    }
+    
+    .winner {
+        margin-left: -178px;
+        margin-right: -178px;
+    }
+    
+    .trophymedals.myflex {
+        margin-top: 0;
+    }
+    
+}
+@media screen and (max-width:300px) {
+    
+    .trophymedals.myflex {
+        margin-top: 0;
+    }
+    .medalss {
+        margin-left: -36%;
+    }
+
+}

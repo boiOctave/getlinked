@@ -1,0 +1,206 @@
+@media screen and (min-width:783px) {
+    .timelineCon {
+        display: none;
+    }
+
+
+}
+
+section#timeline {
+    padding: 2rem 4rem;
+}
+.timelineCon.myflex {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.timelineMobCon.myflex {
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    width: 592px;
+    height: 112px;
+}
+
+
+.timelineMobCon.myflex h4 {
+    color: #D434FE;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.timelineMobCon.myflex p {
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 159.9%;
+    font-size: 12px;
+    margin-top: 14px;
+}
+
+.timelineSpan.myflex span {
+    color: #FFF;
+  position: relative;
+    font-style: normal;
+    width: 19.32px;
+    height: 19.327px;
+    font-weight: 700;
+    text-align: center;
+    line-height: normal;
+    /* padding-right: 7.05px; */
+    border-radius: 50%;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+}
+
+.singlemobTmln.myflex {
+    gap: 10px;
+}
+
+.timelineSpan::before{
+    content: "";
+    width: 20px;
+    height: 9px;
+    background: #150E28;
+    position: absolute;
+}
+
+.timelineSpan.myflex {
+    /* display: flex; */
+    /* align-items: flex-end; */
+    /* align-content: flex-end; */
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+
+.tmlnStroke {
+    width: 3px;
+    height: 97px;
+    background: #D434FE;
+}
+
+@media screen and (max-width:654px) {
+    .timelineMobCon.myflex {
+        width: 486px;
+     
+    }
+}
+
+@media screen and (max-width:565px) {
+    .timelineMobCon.myflex {
+        width: 365px;
+        
+    }
+    
+}
+@media screen and (max-width:560px) {
+    .timelineMobCon.myflex.forthmob p {
+        margin-top: -2px;
+    }
+    .timelineMobCon.myflex.demD p {
+        margin-top: -14px;
+    }
+}
+@media screen and (max-width:437px) {
+    .timelineMobCon.myflex {
+        width: 100%;
+    }
+    .timelineSpan::before {
+        
+        
+        height: 39px;
+        
+    }
+    
+    .tmlnStroke {
+        
+        height: 158px;
+    }
+    
+    
+    .timelineMobCon.myflex p {
+        color: #FFF;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 159.9%;
+        font-size: 12px;
+        margin-top: 27px;
+    }
+    
+    .timelineMobCon.myflex.threemob p {
+        margin-bottom: 47px;
+        margin-top: 6px;
+    }
+    
+    .timelineSpan.myflex.fourstroke .tmlnStroke {
+        height: 197px;
+    }
+    
+    .timelineMobCon.myflex.forthmob p {
+        margin-top: 46px;
+    }
+    
+    .timelineMobCon.myflex.fifthmob p {
+        margin-top: 46px !important;
+    }
+    
+    .timelineMobCon.myflex.demD p {
+        margin-top: 27px;
+    }
+    
+    
+    .timelineSpan.fourstroke::after{
+        content: "";
+        width: 20px;
+        height: 59px;
+        background: #150E28;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width:431px) {
+
+    .timelineMobCon.myflex.fifthmob p {
+        margin-top: 27px !important;
+    }
+}
+
+@media screen and (max-width:426px) {
+
+    .timelineMobCon.myflex.forthmob h4 {
+        font-size: 13px;
+    }
+    .timelineMobCon.myflex.forthmob p {
+        margin-top: 74px;
+    }
+}
+
+@media screen and (max-width:417px) {
+
+    .timelineMobCon.myflex.forthmob p {
+        margin-top: 35px;
+    }
+
+}
+
+@media screen and (max-width:368px) {
+
+    .timelineMobCon.myflex.demD p {
+        margin-top: 8px;
+    }
+}
+@media screen and (max-width:362px) {
+
+    .timelineMobCon.myflex.demD p {
+        margin-top: 7px;
+    }
+}
+@media screen and (max-width:300px) {
+
+    .tmlnStroke {
+        height: 226px;
+    }
+}

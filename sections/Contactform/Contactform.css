@@ -1,0 +1,142 @@
+
+@media screen and (min-width:800px) and (min-height:900px) {
+    section#contact {
+        overflow: hidden;
+    }
+}
+
+
+section#contact {
+    padding: 5rem 1rem 0;
+    min-height: 100vh;
+    height: 100%;
+    max-height: 100vh;
+ 
+}
+
+.contact-content.mycontainer {
+
+    display: grid;
+    align-items: center;
+    padding: 10rem 9rem 6rem;
+    grid-template-columns: 1fr 1fr;
+    height: 85vh;
+   
+}
+
+
+.contactLeft h2 {
+    color: #D434FE;
+    /* font-family: Clash Display; */
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contactLeft p {
+    color: #FFF;
+    /* font-family: Montserrat; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.shareText  {
+    color: #D434FE;
+    /* font-family: Montserrat; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.share__icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 9px;
+}
+
+.contactLeft {
+    height: -moz-fit-content;
+    height: fit-content;
+    display: grid;
+    /* place-items: center; */
+    /* margin: 0 auto; */
+    /* margin-bottom: auto; */
+    align-items: center;
+    justify-items: start;
+    margin-top: 50px;
+    gap: 1.5rem;
+    max-width: 500px;
+    margin-left: 2rem;
+    max-height: 369px;
+    align-self: flex-start;
+    position: relative;
+}
+
+
+.contactForm {
+    padding: 4rem 5rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.contactLeft::before {
+    content: "";
+    background: url("/ppp3.svg");
+    /* background-origin: unset; */
+    width: 1086px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    right: -20rem;
+    /* backdrop-filter: contrast(0.5); */
+    flex-shrink: 0;
+    background-blend-mode: soft-light;
+    /* background-size: cover; */
+    display: block;
+    opacity: 0.48;
+    position: absolute;
+    color-interpolation-filters: inherit;
+    z-index: -1;
+}
+
+
+.contactLeft::after {
+    content: "";
+    background: url("/ppp2.svg");
+    /* background-origin: unset; */
+    width: 1086px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    left: 55rem;
+    top: 0;
+    /* backdrop-filter: contrast(0.5); */
+    flex-shrink: 0;
+    background-blend-mode: soft-light;
+    /* background-size: cover; */
+    display: block;
+    opacity: 0.48;
+    position: absolute;
+    color-interpolation-filters: inherit;
+    z-index: -1;
+}
+
+
+.contactLeft img.star2 {
+    top: -82px;
+}
+
+@media screen and (max-width:650px){
+    .contactForm {
+        padding: 4rem 0rem;
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.03);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+}

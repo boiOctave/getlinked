@@ -1,0 +1,273 @@
+@media screen and (min-width: 880px) {
+    #heroMobile {
+    display: none;
+}
+}
+section#heroMobile {
+    padding-top: 5rem;
+}
+
+@media screen and (max-width: 664px) {
+    .topHeading, .downHeading {
+        font-size: 40px;
+    }
+
+   .stars img:nth-child(2) {
+        position: relative;
+        top: 52px;
+        left: 22rem !important;
+        width: 12px;
+        height: 16px;
+    }
+}
+
+
+.heroContent {
+    flex-direction: column;
+    
+    
+    .heroSlogan {
+        margin-top: 3rem;
+    }
+
+    .hero__left {
+        position: relative;
+        max-width: 100%;
+        width: auto;
+        padding: 6.65rem 0;
+                        margin-left: initial;
+                        padding-bottom: 0;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        
+                        .herotext {
+                            font-size: 14px;
+                            max-width: 412px;
+                            text-align: center;
+                        }
+                        
+                        button{
+                            width: 40%;
+                        }                   
+                    }
+                    
+                    .countdown {
+                        max-width: 285px;
+                        display: flex;
+                        gap: 1rem;
+                        margin-top: 0rem;
+                        
+                        
+                        .hours p,  .mins p,  .secs p {
+                            font-size: 48px;
+                        }
+                        
+                    }
+                    
+                }
+               
+                img.star1 {
+                    position: absolute;
+                    width: 12px;
+                    bottom: 37rem;
+                    left: 38%;
+                }
+           
+                img.star2 {
+                    position: absolute;
+                    width: 12px;
+                    bottom: 39rem;
+                    left: 78%;
+                }
+
+                img.star3 {
+                    position: absolute;
+                    width: 12px;
+                    bottom: 20rem;
+                    left: 69%;
+                }
+
+
+
+.heroContent .hero__Right {
+    position: relative;
+    width: 514px;
+    left: 29%;
+    /* transform: translate(-26%, -3%); */
+    height: 419px;
+    /* mix-blend-mode: luminosity; */
+}
+
+
+.heroContent  .rightMan {
+    width: 542px;
+    height: 473px;
+    top: 0;
+    right: 26px;
+    /* position: absolute; */
+    mix-blend-mode: luminosity;
+}
+
+.heroContent  img.globe {
+    width: 437px;
+    top: 35px !important;
+}
+
+                @media screen and (max-width: 445px){
+                    .heroContent .topHeading, .heroContent .downHeading {
+                                            font-size:28px;
+                    }
+
+                   .heroContent .herotext {
+                        font-size: 11px !important;
+                    }
+                    .heroContent .getLinked img {
+                        top: -49%;
+                        width: 18px;
+                        height: 26px;
+                    }
+
+                    .heroContent .hackaton img {
+                        width: 55px;
+                        height: 33px;
+                        bottom: 12%;
+                        right: -27%;
+                    }
+
+                    img.star1 {
+                        position: absolute;
+                        width: 12px;
+                        bottom: 38rem;
+                        left: 33%;
+                    }
+
+                    img.star3 {
+                        position: absolute;
+                        width: 12px;
+                        bottom: 22rem;
+                        left: 73%;
+                    }
+
+                    img.star2 {
+                        position: absolute;
+                        width: 12px;
+                        bottom: 39rem;
+                        left: 84%;
+                    }
+
+
+                    .heroContent img.globe {
+                        width: 431px;
+                        top: 35px !important;
+                    }
+
+                    .heroContent .rightMan {
+                        width: 477px;
+                        height: 388px;
+                        top: 0;
+                        /* right: 102px; */
+                        /* position: absolute; */
+                        mix-blend-mode: luminosity;
+                    }
+
+                    .heroContent .hero__Right {
+                        position: relative;
+                        width: 514px;
+                        left: 39%;
+                        /* transform: translate(-26%, -3%); */
+                        height: 419px;
+                        /* mix-blend-mode: luminosity; */
+                    }
+}
+
+
+@media screen and (max-width: 445px){
+
+    ection#heroMobile {
+        padding-bottom: 10px;
+    }
+
+    .heroContent .hero__Right {
+        position: relative;
+        width: 449px;
+        left: 45%;
+        /* transform: translate(-26%, -3%); */
+        height: 419px;
+        /* mix-blend-mode: luminosity; */
+    }
+
+    .heroContent .rightMan {
+        width: 400px;
+        height: 388px;
+        top: -11px;
+        /* right: 102px; */
+        /* position: absolute; */
+        mix-blend-mode: luminosity;
+    }
+
+    .heroContent img.globe {
+        width: 314px;
+        top: 35px !important;
+    }
+}
+
+
+@media screen and (max-height: 770px){
+ 
+    img.star1 {
+        position: absolute;
+        width: 12px;
+        bottom: 28rem;
+        left: 33%;
+    }
+
+    img.star3 {
+        position: absolute;
+        width: 12px;
+        bottom: 12rem;
+        left: 73%;
+    }
+
+    img.star2 {
+        position: absolute;
+        width: 12px;
+        bottom: 29rem;
+        left: 84%;
+    }
+
+
+}
+
+@media screen and (max-width: 445px) {
+    section#heroMobile {
+        padding-bottom: 0;
+    }
+
+}
+
+@media screen and (max-width: 310px) {
+    .heroSlogan h3 {
+        font-size: 9.5px;
+    }
+
+    .heroContent .topHeading, .heroContent .downHeading {
+        font-size: 20px;
+    }
+
+    heroContent .hackaton img {
+        width: 29px;
+        height: 16px;
+    
+    }
+
+    .heroContent .herotext {
+        font-size: 8px !important;
+    }
+
+    .countdown .hours p, .countdown .mins p, .countdown .secs p {
+        font-size: 36px !important;
+    }
+
+}
+

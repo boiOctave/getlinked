@@ -1,0 +1,101 @@
+
+
+@media screen and (min-width:1437px) {
+    section#intro {
+        border-top: 1px rgba(255, 255, 255, 0.18) solid;
+    }
+    
+}
+.intro-content.mycontainer.myflex {
+    gap: 3rem;
+}
+
+.introLeft,.introRight {
+    position: relative;
+}
+
+
+img.starintro1 ,img.starintro2 {
+    position: absolute;
+}
+
+.introRight {
+    max-width: 520.7px;
+    width: 100%;
+}
+
+.introRight p {
+    font-size: 14px;
+    color: white;
+    margin-top: 1rem;
+}
+
+.introRight h2 {
+    font-size: 32px;
+}
+
+img.ideamage{
+
+    padding-left: 3rem;
+}
+
+img.starintro1,.starintro2 {
+    width: 21px;
+}
+
+img.starintro1 {
+    top: 27%;
+    left: 0;
+}
+
+img.starintro2 {
+    top: 15%;
+    left: 105%;
+}
+
+@media screen and (max-width:904px) {
+    .introRight h2 {
+        font-size: 26px;
+    }
+    .introRight p {
+        font-size: 10px;}
+}
+@media screen and (max-width:800px) {
+    .introRight h2 {
+        font-size: 19px;
+    }
+    .introRight p {
+        font-size: 13px;
+        width: fit-content;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:655px)  {
+ section#intro{
+        padding-top: 20px;
+    
+    }
+    
+    .intro-content.mycontainer.myflex{
+        flex-direction: column;
+    }
+
+    .introRight h2, .introRight p  {
+        text-align: center;
+    }
+    img.ideamage {
+        padding-left: 0;
+    }
+}
+
+
+
+
+@media screen and (max-width: 310px) {
+    
+    section#intro{
+        padding-top: 0;
+    }
+
+}
