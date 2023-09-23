@@ -102,7 +102,7 @@ const Registration = () => {
 
                     <img src="/starrules1.svg" alt="star" className="starrules1 star2" />
                 </motion.div>
-                <motion.div className="criteriaRight"
+                <motion.div className="criteriaRight formBody"
                     variants={zoomIn(0.7, 1)}
                 >
                     <Headings
